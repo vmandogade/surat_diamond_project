@@ -2,12 +2,17 @@
 2) README.md file created
 3) requirements.txt
 4) setup.py
-5) notebooks folder-> data folder, EDA.ipynb, model_trainer.ipynb
-6) src folder-> 1]components-> 1) data_ingestion.py 2) data_transformation.py 3)data_validation.py
-                2]config-> config.py
-                3]exception-> exception.py
-                4]logging->logger.py
-                5]utis->utils.py
+5) app.py
+6) notebooks folder-> data folder, EDA.ipynb, model_trainer.ipynb
+7) src folder-> 1]components-> 1) data_ingestion.py 2) data_transformation.py 3)model_trainer.py
+                2]exception.py
+                3]logger.py
+                4]utils.py
+                5]pipeline folder-> 1)training_pipeline.py 2)prediction_pipeline.py
+8) templates folder -> 1)form.html 2)index.html 3)results.html
+8) Dockerfile
+9) .github -> workflows ->main.yaml
+
 
 Diamond Price Prediction
 Introduction About the Data :
